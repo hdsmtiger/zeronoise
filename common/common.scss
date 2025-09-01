@@ -582,3 +582,7 @@ div.menu-links-header .menu-links-row li a.active {
     height: calc(20px + .5em * 2);
   }
 }
+
+.more-topics__container .more-topics__list .topic-list-header::after {
+  height: 0;
+}
