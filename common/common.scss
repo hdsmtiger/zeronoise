@@ -34,7 +34,7 @@ p {
     border-bottom-width: 5px;
     border-bottom-style: solid;
     border-bottom-color: transparent;
-    padding: 0.75em 1.5em;
+    // padding: 0.75em 1.5em;
     color: color.adjust($primary, $lightness: 30%);
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -167,9 +167,9 @@ ol.category-breadcrumb {
   align-items: center;
 }
 
-#create-topic {
-  padding: 1rem 2rem;
-}
+// #create-topic {
+//   padding: 1rem 2rem;
+// }
 
 .badge {
   &-category-bg,
@@ -242,14 +242,14 @@ ol.category-breadcrumb {
   font-size: 1rem;
 }
 
-.modal-footer,
-.save-or-cancel,
-.usercard-controls,
-.user-main .details {
-  .btn {
-    padding: 1rem 2rem;
-  }
-}
+// .modal-footer,
+// .save-or-cancel,
+// .usercard-controls,
+// .user-main .details {
+//   .btn {
+//     padding: 1rem 2rem;
+//   }
+// }
 
 .modal-inner-container {
   border-radius: 0.5rem;
