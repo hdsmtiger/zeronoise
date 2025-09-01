@@ -77,4 +77,12 @@
   .suggested-topics & thead {
     background-color: transparent;
   }
+
+  .topic-list-item-separator {
+    .topic-list-data {
+      span {
+        z-index: 1;
+      }
+    }
+  }
 }
