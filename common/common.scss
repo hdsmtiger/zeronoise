@@ -574,3 +574,11 @@ div.menu-links-header {
 div.menu-links-header .menu-links-row li a.active {
   border-bottom-color: var(--main-background);
 }
+
+.navigation-controls {
+  align-items: center;
+
+  & > button {
+    height: calc(20px + .5em * 2);
+  }
+}
